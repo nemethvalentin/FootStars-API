@@ -1,10 +1,10 @@
-package Games.RPGgame;
+package Games.FootStars;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RpGgameApplicationTests {
+class FootStarsApplicationTests {
 
 	@Test
 	void contextLoads() {
