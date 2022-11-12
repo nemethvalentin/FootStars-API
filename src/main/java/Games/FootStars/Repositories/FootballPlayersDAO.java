@@ -12,6 +12,10 @@ import java.util.List;
 public interface FootballPlayersDAO extends JpaRepository<FootballPlayers, Integer> {
 
     @Query("select preferredFoot from FootballPlayers f where f.id = 1")
-   String getPlayerName();
+   String getPreferredFoot();
+
+
+    @Query("select name from FootballPlayers f where f.id = 1")
+    String getPlayerName();
 
 }
