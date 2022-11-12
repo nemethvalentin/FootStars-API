@@ -13,10 +13,9 @@ public class FootballPlayersService {
     @Autowired
     FootballPlayersDAO footballPlayersDAO;
 
-    public List<FootballPlayers> getAllPlayer(){
-        List<FootballPlayers> allPlayers = footballPlayersDAO.findAll();
 
-        return allPlayers;
+    public String getPlayerName(){
+        return footballPlayersDAO.getPlayerName();
     }
 
 }
